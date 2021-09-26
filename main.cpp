@@ -1,6 +1,5 @@
 #include <cstdio>
 #include <random>
-#include <cmath>
 
 int main(int argc, char *argv[])
 {
@@ -19,5 +18,6 @@ int main(int argc, char *argv[])
       return 0;
     }
   }
+  std::puts( "No unexpected values were found." );
   return 0;
 }

@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
   auto minval = 1-delta;
   std::uniform_real_distribution<> dist(minval,maxval);
 
-  constexpr unsigned long long TRIAL = 1ull<<24;
+  constexpr unsigned long long TRIAL = 1ull<<28;
   for (unsigned long long i = 0; i<TRIAL; i++)
   {
     auto v = dist(engine);

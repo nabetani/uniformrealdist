@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
     // real minval = mid - delta;
     real minval = -1;
     real maxval = -1.0f/(1ull<<25);
-    std::cout << "["<<maxval<<", "<<minval<<")\n";
+    std::cout << "["<<minval<<", "<<maxval<<")\n";
     std::uniform_real_distribution<real> dist(minval, maxval);
 
     int eqmax_count = 0;
